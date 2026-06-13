@@ -1,5 +1,5 @@
 nome = 'Ernesto'
-print('Olá, ' + nome + '! Prazer em te conhecer!')
+print('Olá, {}! Prazer em te conhecer!'.format(nome))
 print('Qual o seu ano de nascimento? ')
 ano = int(input())
 idade = 2026 - ano
