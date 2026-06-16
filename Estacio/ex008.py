@@ -1,7 +1,2 @@
-import math
-
-def fatorialDe(n):
-    print("Informe um número para calcular o fatorial: ")
-    numero = int(input())
-    print( f"O fatorial de {numero} é: {math.factorial(numero)}")
-fatorialDe(0)
+numero = int(input("Informe um número inteiro qualquer: "))
+print("Com base no número informado {}, o seu antecessor é {} e o seu sucessor é {}.".format(int(numero), int(numero) - 1, int(numero) + 1))
